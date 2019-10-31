@@ -1,0 +1,10 @@
+img {
+    width:100px;
+    height:100px;
+    display:inline-block;
+
+}
+
+img:hover {
+    border: solid 5px black;
+}

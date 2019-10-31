@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars RPG</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class='bg-secondary background'>
+    <!-- We need a few divs: attacker area, defender area, choosing your character, defeated -->
+    <div class='container'>
+        <div class='row'>
+            <!-- Attack 'arena' on left side and defeated on right side -->
+            <div class='col-md-6'>
+
+                <!-- 3 rows: 1 for choose character, 1 for attacker area, 1 for defender area -->
+                <div class='row selection'>
+                    <h1 class='text-success font-weight-bold'>Choose your Warrior</h1>
+                    <div class='row char-select'>
+                        <figure class='gg mr-3'> <img src="assets/images/grievous.jpg" alt="">
+                            <figcaption class='figure-caption text-info text-center'> General Grievous</figcaption>
+                        </figure>
+                        <figure class='kr mr-3'> <img src="assets/images/kyloren.jpg" alt="">
+                            <figcaption class='figure-caption text-info text-center'> Kyle Ren</figcaption>
+                        </figure>
+                        <figure class='ow mr-3'> <img src="assets/images/obiwan.jpg" alt="">
+                            <figcaption class='figure-caption text-info text-center'> Obi-Wan Kenobi</figcaption>
+                        </figure>
+                        <figure class='re mr-3'> <img src="assets/images/rey.jpg" alt="">
+                            <figcaption class='figure-caption text-info text-center'> Rey </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <div class='row mt-3 attacker'>
+                    <h1 class='text-danger'>Fight!</h1>
+
+                </div>
+                <div class='row defender'>
+                    <h1 class='text-primary font-weight-bold'>Defend!</h1>
+                </div>
+            </div>
+            <div class='col-md-6'>
+                <div class='row stats'>
+                    <h1> Warrior Stats </h1>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class='row mt-5'>
+                    <h1> <u class='text-info'>Fallen Warriors</u> </h1>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -29,10 +29,33 @@ var chars = {
 
 };
 
-$('.gg').hover(function () {
-    $(this).append($('<div>' + 'HP: ' + chars.grievous.hp + '</div>'));
-})
 
+
+$(document).ready(function () {
+    $('.gg').hover(function () {
+        $('.ggcap').append($('<div>' + 'HP: ' + chars.grievous.hp + '<br>' + 'AP: ' + chars.grievous.ap + '<br>' + 'CAP: ' + chars.grievous.cap + '</div>'));
+    }, function () {
+        $(this).find('div').last().remove();
+    })
+
+    $('.kr').hover(function () {
+        $('.krcap').append($('<div>' + 'HP: ' + chars.kylo.hp + '<br>' + 'AP: ' + chars.kylo.ap + '<br>' + 'CAP: ' + chars.kylo.cap + '</div>'));
+    }, function () {
+        $(this).find('div').last().remove();
+    })
+
+    $('.re').hover(function () {
+        $('.recap').append($('<div>' + 'HP: ' + chars.rey.hp + '<br>' + 'AP: ' + chars.rey.ap + '<br>' + 'CAP: ' + chars.rey.cap + '</div>'));
+    }, function () {
+        $(this).find('div').last().remove();
+    })
+
+    $('.ow').hover(function () {
+        $('.owcap').append($('<div>' + 'HP: ' + chars.obiwan.hp + '<br>' + 'AP: ' + chars.obiwan.ap + '<br>' + 'CAP: ' + chars.obiwan.cap + '</div>'));
+    }, function () {
+        $(this).find('div').last().remove();
+    })
+});
 
 
 

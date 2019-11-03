@@ -27,3 +27,8 @@ figure {
     font-weight:bold;
     color: white;
 }
+
+.slotone, .slottwo, .slotthree {
+    display:inline-block;
+    margin-left:30px;
+}

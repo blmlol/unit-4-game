@@ -12,3 +12,18 @@ img:hover {
 .defender {
     display:inline-block;
 }
+
+figure {
+    display:inline-block;
+}
+
+.stats {
+    display:inline-block;
+    padding: 10px;
+}
+
+.warstats{
+    font-size: 24px;
+    font-weight:bold;
+    color: white;
+}
